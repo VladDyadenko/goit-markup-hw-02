@@ -33,7 +33,7 @@ li {
 }
 /* шапка, навигация, футер */
 /* підсвітка поточної сторінки */
-.site-nav .current{
+.last .current{
 color: var(--logo-akcent-color);
 }
 
