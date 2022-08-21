@@ -11,9 +11,9 @@ li {
 }
 /* шапка, навигация, футер */
 /* зміна кольору при наведенні курсору */
-.nav-pagination:hover,
+.site-nav:hover,
 .contact-info:hover,
-.nav-pagination:focus,
+.site-nav:focus,
 .contact-info:focus {
     color: #2196F3;
 }
@@ -29,7 +29,7 @@ header ul a:focus {
 .logo-web {
     color: #2196F3;
 }
-.nav-pagination {
+.site-nav a {
     color: #212121;
 }
 .contact-info {
