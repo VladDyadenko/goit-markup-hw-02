@@ -1,8 +1,20 @@
-body {
-    background: #FFFFFF;
-    color:#212121;
+:root {
+    --praymare-text-color: #757575;
+    --title-text-color: #212121;
+    --logo-akcent-color: #2196F3;
+    --praymary-background-color: #FFFFFF;
 }
-        /* Убираем подчёркивание */
+.page {
+    background: #FFFFFF;
+    color:var(--praymare-text-color);
+}
+/* Основные цвета #212121, #757575 /
+/* Цвета логотипа #2196F3, #000000, #ffffff */
+/* акцент #2196F3 */
+
+
+
+/* Убираем подчёркивание */
 a {
     text-decoration: none;
 }
@@ -11,29 +23,24 @@ li {
 }
 /* шапка, навигация, футер */
 /* зміна кольору при наведенні курсору */
-.site-nav:hover,
-.contact-info:hover,
-.site-nav:focus,
-.contact-info:focus {
-    color: #2196F3;
-}
 
-header ul a:hover,
-header ul a:focus {
-    color: #2196F3;
+.link a:hover,
+.link a:focus, 
+.link a:active {
+    color: var(--logo-akcent-color);
 }
 
 .logo {
     color: #000000;
 }
 .logo-web {
-    color: #2196F3;
+    color: var(--logo-akcent-color);
 }
-.site-nav a {
-    color: #212121;
+.site-nav a{
+    color:var(--title-text-color);
 }
 .contact-info {
-    color: #757575;
+    color: var(--praymare-text-color);
 }
 
 /* головна частина */
@@ -41,10 +48,10 @@ header ul a:focus {
     background: #2F303A;
 }
 .title {
-    color: #FFFFFF;
+    color:var(--praymary-background-color);
 }
 .button {
-    color: #FFFFFF;
+    color:var(--praymary-background-color);
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -52,10 +59,7 @@ header ul a:focus {
 
 /* переваги */
 .titl-main {
-    color: #212121
-}
-.aside {
-    color: #757575;
+    color:var(--title-text-color);
 }
 
 /* діяльність */
@@ -67,11 +71,11 @@ header ul a:focus {
     background: #2F303A;
 }
 .contact {
-    color: #FFFFFF;
+    color:var(--praymary-background-color);
     font-style: normal;
 }
 .logo-footer {
-    color: #FFFFFF;
+    color:var(--praymary-background-color);
 }
 .contact-footer {
     color: rgba(255, 255, 255, 0.6);
