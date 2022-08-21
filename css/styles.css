@@ -1,0 +1,78 @@
+body {
+    background: #FFFFFF;
+    color:#212121;
+}
+        /* Убираем подчёркивание */
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;   
+}
+/* шапка, навигация, футер */
+/* зміна кольору при наведенні курсору */
+.nav-pagination:hover,
+.contact-info:hover,
+.nav-pagination:focus,
+.contact-info:focus {
+    color: #2196F3;
+}
+
+header ul a:hover,
+header ul a:focus {
+    color: #2196F3;
+}
+
+.logo {
+    color: #000000;
+}
+.logo-web {
+    color: #2196F3;
+}
+.nav-pagination {
+    color: #212121;
+}
+.contact-info {
+    color: #757575;
+}
+
+/* головна частина */
+.title-section {
+    background: #2F303A;
+}
+.title {
+    color: #FFFFFF;
+}
+.button {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* переваги */
+.titl-main {
+    color: #212121
+}
+.aside {
+    color: #757575;
+}
+
+/* діяльність */
+
+/* команда */
+
+/* футер */
+.footer {
+    background: #2F303A;
+}
+.contact {
+    color: #FFFFFF;
+    font-style: normal;
+}
+.logo-footer {
+    color: #FFFFFF;
+}
+.contact-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
