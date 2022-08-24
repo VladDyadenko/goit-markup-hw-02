@@ -6,7 +6,8 @@
     --button-background-color: #F5F4FA;
 }
 .page {
-    font-family: Roboto;
+    letter-spacing: 0.03em;
+    font-family: Roboto, sans-serif;
     background: #FFFFFF;
     color:var(--praymare-text-color);
 }
@@ -38,15 +39,31 @@ color: var(--logo-akcent-color);
 }
 
 .logo {
+    font-family: Raleway, cursive;
     color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 .logo-web {
+    font-family: Raleway, cursive;
     color: var(--logo-akcent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 .site-nav a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color:var(--title-text-color);
 }
 .contact-info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: var(--praymare-text-color);
 }
 
@@ -55,45 +72,77 @@ color: var(--logo-akcent-color);
     background: #2F303A;
 }
 .title {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
     color:var(--praymary-background-color);
 }
-.button.title {
+.button-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
     color:var(--praymary-background-color);
     background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
+   }
 
 /* переваги */
-.titl-main {
-    color:var(--title-text-color);
+.titl-benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+     color: var(--title-text-color);
+    text-transform: uppercase;
 }
+
+
 
 /* діяльність */
-
-/* команда */
-
-/* футер */
-.footer {
-    background: #2F303A;
+.descr-benefits {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+   
 }
-.contact {
-    color:var(--praymary-background-color);
+/* команда */
+.titl-main {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--title-text-color);
+}
+.descr-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
     
 }
-.logo-footer {
-    color:var(--praymary-background-color);
+
+.titl-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
 }
-.contact-footer {
-    color: rgba(255, 255, 255, 0.6);
-}
-.contact-footer:hover,
-.contact-footer:focus {
-    color: var(--logo-akcent-color);
-}
+
 /* портфолио button */
 .button.examples {
-     background: var(--button-background-color);
+    letter-spacing: 0.03em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    background: var(--button-background-color);
     border-radius: 4px;
     color: var(--title-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -103,5 +152,61 @@ color: var(--logo-akcent-color);
     background: var(--logo-akcent-color);
     border-radius: 4px;
     color: var(--praymary-background-color);
+}
+
+.titl-portfolio {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+}
+
+.descr-type {
+    color: var(--praymare-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.example {
+    font-size: 24px;
+    color: var(--title-text-color);
+    font-style: italic;
+
+}
+.example-deskr {
+    font-style: initial;
+}
+
+/* футер */
+.footer-general {
+    background: #2F303A;
+}
+
+.contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--praymary-background-color);
+
+}
+
+.logo-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: Raleway, cursive;
+    color: var(--praymary-background-color);
+}
+
+.contact-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+    color: var(--logo-akcent-color);
 }
 
