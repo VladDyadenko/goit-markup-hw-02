@@ -185,6 +185,7 @@ color: var(--logo-akcent-color);
 }
 
 .contact {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     color: var(--praymary-background-color);
@@ -200,6 +201,7 @@ color: var(--logo-akcent-color);
 }
 
 .contact-footer {
+    
     color: rgba(255, 255, 255, 0.6);
 }
 
